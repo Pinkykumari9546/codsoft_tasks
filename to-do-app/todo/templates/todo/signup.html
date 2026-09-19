@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="{% static 'todo/css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="signup-box">
+            <h2>SignUp</h2>
+            <form method="post">
+                {% csrf_token %}
+                <div class="label-box">
+                    <label for="name">Username</label>
+                    <input type="text" placeholder="Enter your name" name="name" required>
+                </div>
+                 <div class="label-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your email" name="email" required>
+                </div>
+                 <div class="label-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter your password" name="password" required>
+                </div>
+                <div class="label-box ">
+                    <input type="submit" value="Sign Up" class="signup">
+                </div>
+            </form>
+            <div class="para-box">
+                <p>Already have an account?</p>
+                <a href="/login" >Login</a>
+            </div>
+        </div>
+    </div>
+
+    {% load django_browser_reload %}
+    {% django_browser_reload_script %}
+</body>
+</html>
+
