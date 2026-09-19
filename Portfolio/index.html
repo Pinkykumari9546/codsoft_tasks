@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" />
+</head>
+<body>
+    <!-- HEADER SECTION -->
+
+    <header>
+        <nav class="container flex ">
+            <a href="#" class="logo">Port<span>folio</span></a>
+
+            <div class="nav-links" id="nav-link">
+                <i class="fa-solid fa-xmark" id="mark"></i>
+                <ul class="flex">
+                    <li><a href="#home" >Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="active">Contact</a></li>
+                </ul>
+            </div>
+
+            <i class="fa-solid fa-bars" id="menu-icon"></i>
+        </nav>
+    </header>
+
+    <!-- MAIN SECTION -->
+
+    <main>
+
+        <!-- hero-section -->
+        <section class="hero wrapper container gap-10" id="home">
+         
+                <div class="hero-content">
+                    <h3>Hello, It's Me</h3>
+                    <h1>Pinky Kumari</h1>
+                    <h3>And I'm a <span>Frontend Developer</span></h3>
+                    <p class="para">I’m a Frontend Developer. I build responsive, modern, and user-friendly websites using HTML, CSS, JavaScript, and React.js. I love turning ideas into clean and interactive web experiences.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/Pinkykumari9546" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pinky-kumari327/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitter" ></i></a>
+                    </div>
+                    <a href="images/ATS-Resume.pdf" download  class="btn">Download CV</a>
+                </div>
+                <div class="img-container wrapper">
+                    <div class="img-box">
+                        <img src="images/mypic.jpeg" alt="">
+                    </div>
+                </div>
+            
+        </section>
+
+        <!-- about-section -->
+        <section class="about container wrapper gap-10" id="about">          
+            <div class="img-container wrapper">
+                <div class="img-box">
+                    <img src="images/mypic.jpeg" alt="">
+                </div>
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Frontend Developer</h3>
+                <p> I am a passionate Frontend Developer and BCA graduate with a strong interest in web development. 
+                    I have experience working with HTML, CSS, JavaScript, and React.js, and I am continuously learning new technologies to improve my development skills. 
+                    <br><br>
+                    I have built projects such as responsive websites, web applications, and portfolio projects.
+                     My goal is to grow as a Frontend Developer and contribute to real-world projects while continuously improving my skills..
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>         
+        </section>
+
+        <!-- skills-section -->
+
+        <section class="skills container " id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+
+            <div class="skills-row">
+                <h3 class="title">Coding Skills</h3>
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span class="bar1"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span class="bar2"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>JavaScript <span>65%</span></h3>
+                            <div class="bar"><span class="bar3"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>React Js <span>50%</span></h3>
+                            <div class="bar"><span class="bar4"></span></div>
+                        </div>                                
+                    </div>
+
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>TailwindCSS <span>75%</span></h3>
+                            <div class="bar"><span class="bar5"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>SQL <span>50%</span></h3>
+                            <div class="bar"><span class="bar6"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Python <span>65%</span></h3>
+                            <div class="bar"><span class="bar7"></span></div>
+                        </div>
+                        <div class="progress">
+                            <h3>Django <span>55%</span></h3>
+                            <div class="bar"><span class="bar8"></span></div>
+                        </div>                                
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- project-section -->
+
+        <section class="project container " id="projects">
+            <h2 class="heading">
+                Latest <span>Projects</span>
+            </h2>
+
+            <div class="project-container">
+                <div class="project-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="project-details">
+                        <h4>To-Do App</h4>
+                        <p>A task management web application built with Django.</p>
+                        <div class="link-box flex">
+                            <a href="https://pinky01.pythonanywhere.com/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Pinkykumari9546/Todo_App_using_Django" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="project-details">
+                        <h4>College Website</h4>
+                        <p>A responsive college website designed to showcase about, courses, blog and contact information with a clean and user-friendly interface.</p>
+                        <div class="link-box flex">
+                            <a href="https://college-website0.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                            <a href="https://github.com/Pinkykumari9546/college_website" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="project-details">
+                        <h4>To Do App</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex hic inventore, facere sint architecto eligendi totam quos quam asperiores illum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="project-details">
+                        <h4>To Do App</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex hic inventore, facere sint architecto eligendi totam quos quam asperiores illum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="project-box">
+                    <img src="images/portfolio1.jpg" alt="">
+                    <div class="project-details">
+                        <h4>To Do App</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex hic inventore, facere sint architecto eligendi totam quos quam asperiores illum.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- contact-section -->
+
+        <section class="contact container " id="contact">
+            <h2 class="heading">Contact <span>Me</span></h2>
+            <div class="contact-container flex">
+                <div class="contact-content">               
+                    <h3>Let's Grow Together</h3>
+                    <p>I’m a motivated Frontend Developer and BCA graduate with a passion for web development. I specialize in HTML, CSS, JavaScript, and React.js, and I enjoy building responsive and interactive web applications.</p>
+                    <div class="info-details">
+                        <div class="info">
+                            <i class="fa-solid fa-envelope"></i> pinkykumari954613@gmail.com
+                        </div>
+                        <div class="info">
+                            <i class="fa-solid fa-phone"></i> +91 6201529277
+                        </div>
+                    </div>
+                    <div class="social-icons">
+                        <a href="https://github.com/Pinkykumari9546" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/pinky-kumari327/" target="_blank"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram" ></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-twitter" ></i></a>
+                    </div>
+                    <a href="images/ATS-Resume.pdf" download class="btn">Download CV</a>
+                </div>
+                <form action="">
+                    <input type="text" placeholder="Enter your name" name="name" required>
+                    <input type="email" placeholder="Enter your email" name="email" required>
+                    <input type="text" placeholder="Enter your subject" name="subject" required>
+                    <textarea name="message" placeholder="Enter your Message" rows="6"></textarea>
+                    <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+
+    <footer>
+        <div class="footer">
+            <p>&copy; 2026 Pinky Kumari. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+    <script src="scripts.js"></script>
+</body>
+</html>
